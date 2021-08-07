@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import HeadBackground from './HeadBackground';
+import Users from './Users';
+import Jude from './Jude';
+import Expenses from './Expenses';
+import Recurring from './Recurring';
+import Likes from './Likes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeadBackground />
+        <div className="body">
+        <div className="left">
+        <Users />
+        </div>
+        
+        <div className="right">
+          <Jude />
+          <Expenses />
+
+          <div className="bottom">
+            <Recurring />
+            <Likes />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
