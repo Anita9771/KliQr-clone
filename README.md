@@ -1,3 +1,7 @@
+First React project cloning KliQr Assessment desktop design.
+Design link: https://www.figma.com/file/KIPkeYyRgKDC2EzdoD6njk/KliQr-Assesment?node-id=1%3A2
+Github page:  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
