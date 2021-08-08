@@ -3,23 +3,32 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: auto;
+    margin: 0;
+    overflow-x: hidden;
 }
 
+
 .body{
+    /* border: 2px solid; */
     display: flex;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
+    width: 100%;
+    
 }
 
 .left{
     /* border: 2px solid green; */
-    width: 33%;
+    width: 32%;
 }
 
 .right{
     /* border: 2px solid; */
-    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
 }
 
 .left{
@@ -30,6 +39,8 @@
     /* border: 2px solid; */
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
 /* @media (min-width: 320px) and (max-width: 480px){

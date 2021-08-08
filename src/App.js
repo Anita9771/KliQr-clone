@@ -9,8 +9,9 @@ import Likes from './Likes';
 function App() {
   return (
     <div className="App">
-      <HeadBackground />
+      
         <div className="body">
+        <HeadBackground />
         <div className="left">
         <Users />
         </div>

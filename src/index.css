@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Mono:ital,wght@1,700&display=swap');
 
+
 .head-background{
-  width: 100vw;
+  width: 100%;
   height: 7%;
   background-color: rgb(65, 60, 105);
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
 }
 
 .users{
@@ -50,8 +51,8 @@
 }
 
 .jude{
-  /* border: 2px solid;
-  width: 50%; */
+  /* border: 2px solid; */
+ /* width: 50%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,7 +69,8 @@
   /* border: 2px solid; */
   display: flex;
   flex-direction: row;
-  width: 70%;
+  justify-content: center;
+  width: 100%;
   font-family: 'Space Mono', monospace;
   color: rgb(74, 71, 163); 
 }
